@@ -1,2 +1,9 @@
-# Optimove-APIs
-dev/tech examples and use cases supporting optimove's APIs
+This repo is to support Optimove's API by providing code examples/samples and use cases.
+
+**GitHub Examples**
+ - Login API use cases
+
+**External Links**
+ - [Optimove API usage guide]([https://docs.optimove.com/api-usage-guide/](https://docs.optimove.com/api-usage-guide/#General_Information))
+ - [Optimove APIs - getting started](https://docs.optimove.com/getting-started-optimove-api/)
+ - [Integrating your service to Optimove](https://docs.optimove.com/integrate-your-service-with-optimove)
