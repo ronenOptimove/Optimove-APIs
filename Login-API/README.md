@@ -1,0 +1,3 @@
+## Example 1: 
+First time login, saving token in your cache and immediately calling an Optimove API from the cached token
+![](https://github.com/optimoveproductintegration/Optimove-APIs/blob/master/Login-API/API%20Auth%20E1.jpg?raw=true)
