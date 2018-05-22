@@ -10,6 +10,7 @@ First time login, saving token in your cache and immediately calling an Optimove
 ----------
 ## Example 3a: 
 First time login, saving token in your cache and immediately calling an Optimove API from the cached token, following by calling the login API before the token has been expired. You will get an error (#429) of too many request. Please do not call the login API unless the token has expired.
+Please note: only 1 call per sec is allowed, otherwise #429 error will be sent.
 ![](https://github.com/optimoveproductintegration/Optimove-APIs/blob/master/Login-API/API%20Auth%20E3a.jpg?raw=true)
 
 ----------
