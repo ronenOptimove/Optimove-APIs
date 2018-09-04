@@ -1,9 +1,11 @@
 ## Sandbox Environment Usage Guide
+Optimove Sandbox environment is intended for both Optimove clients and third parties to test and simulate Optimove APIs before production usage.
+
 - [Requesting Access](#request-access)
 - [Frequently asked questions (FAQ)](#faq)
 - [Executing a Test Campaign in the Sandbox site](#exec-test-camp)
 
-Optimove Sandbox environment is intended for both Optimove clients and third parties to test and simulate Optimove APIs before production usage.
+<br/>
 
 ### <a id="request-access"></a>Requesting Access
 To request Sandbox Site and API access, please use one of the links below: 
