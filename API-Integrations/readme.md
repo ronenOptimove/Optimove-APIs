@@ -6,7 +6,7 @@
 ### <a id="pre-flow"></a>Pre-Scheduled Flow: 
 **Use Case**: You are an Optimove client / third party vendor/partner who is interested in using Optimove to automatically send customer campaigns via your marketing platform, or you wish to integrate an external service with Optimove and act as the middleware.
 
-![](https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-%20Pre-Scheduled%20-%20Client%20Execution%20Flow.png?raw=true)
+<p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-%20Pre-Scheduled%20-%20Client%20Execution%20Flow.png?raw=true"></p>
 
 >**Notes**: 
 > -   For API Authentication (#1 above) best practice refer to -   [Login API best practice & use cases](https://github.com/optimoveproductintegration/Optimove-APIs/tree/master/Login-API)
@@ -16,8 +16,7 @@
 ----------
 ### <a id="rt-flow"></a>Realtime Flow: 
 **Use Case**: You are an Optimove client who is interested in using Optimove to automatically send your customers realtime campaigns based on Optimove [Web](https://github.com/optimove-tech/Web-SDK-Integration-Guide) / [Mobile](https://github.com/optimove-tech/Mobile-SDK-Integration-Guide) SDK trigger via your marketing platform, or you wish to integrate an external service with Optimove and act as the middleware.
-
-![](https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-%20Realtime%20-%20Client%20Execution%20Flow.png?raw=true)
+<p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-%20Realtime%20-%20Client%20Execution%20Flow.png?raw=true"></p>
 
 >**Notes**: 
 > - This integration flow **supports** Optimove clients who have Optimove's [Track & Trigger](https://docs.optimove.com/track-and-trigger/) add-on product running on their website or mobile native app **only**!
