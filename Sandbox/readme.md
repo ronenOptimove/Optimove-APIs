@@ -21,22 +21,22 @@ To request Sandbox Site and API access, please use one of the links below:
 
 ### <a id="faq"></a>Frequently asked questions (FAQ)
 
- - **Who can provide me access to the sandbox?**
+ - ** Who can provide me access to the sandbox?**
 Please see [Requesting Access](#request-access) above. 
 <br/>
-- **Why am I getting error when trying to call the GetRegisteredEventListeners API?**
+- ** Why am I getting error when trying to call the GetRegisteredEventListeners API?**
 This API function is current unavailable in the Sandbox environment. It will  be available in Production. <br/>If you want to verify the URL was indeed registered, please contact the Product Integration Team with the URL and they will confirm.
 <br/>
-- **We are not receiving any event in case of scheduled campaigns unless we press 'Run' and ignore the warning. Is this the valid step?**
+- ** We are not receiving any event in case of scheduled campaigns unless we press 'Run' and ignore the warning. Is this the valid step?**
 This is a valid behavior in the Sandbox environment. In your / client's production instance, a daily process will run the pre-scheduled campaigns and fire the event notifications.
 <br/>
-- **Where can we see the metrics which we posted using UpdateCampaignMetrics?**
+- ** Where can we see the metrics which we posted using UpdateCampaignMetrics?**
 The client will see it the Campaign Analysis inside their production Optimove instance. This cannot be simulated in the Sandbox environment.
 <br/>
-- **What Channel ID should we use?**
+- ** What Channel ID should we use?**
 In the Sandbox environment, you will be able to use the generic channels (email, sms, etc). Please see [Requesting Access](#request-access) above and fill out the relevant form. The Product Integration Team will enable the relevant channel requested.<br/> Note: Once in production, the Channel ID will be changed to your real designated Channel ID that will be created for you. 
 <br/>
-- **Why am I seeing many templates under my chosen channel?**
+- ** Why am I seeing many templates under my chosen channel?**
 Since its a shared environment, other Optimove’ clients, vendors/partners are synchronizing their templates for testing purposes only.
 
 
