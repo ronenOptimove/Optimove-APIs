@@ -15,6 +15,7 @@
 > -   Please contact the Product Integration Team who will provide your with the exact Channel ID you should register the listener ([RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)), in order to synchronize your templates to ([AddChannelTemplates](https://docs.optimove.com/api-usage-guide/#AddChannelTemplates) #3 above)
 > -  For more details, please see refer to our [Optimove docs site](https://docs.optimove.com/integrate-your-service-with-optimove/)
 <br/>
+
 ----------
 ### <a id="rt-flow"></a>Realtime Flow: 
 **Use Case**: You are an Optimove client who is interested in using Optimove to automatically send your customers realtime campaigns based on Optimove [Web](https://github.com/optimove-tech/Web-SDK-Integration-Guide) / [Mobile](https://github.com/optimove-tech/Mobile-SDK-Integration-Guide) SDK trigger via your marketing platform, or you wish to integrate an external service with Optimove and act as the middleware.
