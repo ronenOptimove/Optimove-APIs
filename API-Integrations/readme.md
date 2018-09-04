@@ -1,4 +1,4 @@
-## Integrate Your Service - Best Practice
+## Integrate Your Service with Optimove - Best Practices
 
 - [Pre-scheduled Flow](#pre-flow)
 - [Realtime Flow](#rt-flow)
