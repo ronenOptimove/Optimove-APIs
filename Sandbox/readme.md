@@ -8,10 +8,10 @@ Optimove Sandbox environment is intended for both Optimove clients and third par
 <br/>
 
 ### <a id="request-access"></a>Requesting Access
-To request Sandbox Site and API access, please use one of the links below: 
+To request Sandbox Site and API access, please click one of the links below to fill our the relevant form: 
 
- - [Optimove Client Sandbox Request Form](http://bit.ly/Optimove_Client_Sandbox_Site_and_API_Request)
- - [Partner / Third Party Vendor Sandbox Request Form](http://bit.ly/Optimove_Third_Party_Sandbox_Site_and_API_Request)
+ - If you are a client: [Optimove Client Sandbox Request Form](http://bit.ly/Optimove_Client_Sandbox_Site_and_API_Request)
+ - If you are a third party vendor / partner: [Partner / Third Party Vendor Sandbox Request Form](http://bit.ly/Optimove_Third_Party_Sandbox_Site_and_API_Request)
 
 >**Note:**
 >  - Once you fill in one of the requests form, the Optimove Product Integration team will review you request and create relevant access.
@@ -23,17 +23,17 @@ To request Sandbox Site and API access, please use one of the links below:
 
 ### <a id="faq"></a>Frequently asked questions (FAQ)
 
- 1. **Who can provide me access to the sandbox?**
+ 1. **Who can provide me access to the sandbox?**<br/>
 Please see [Requesting Access](#request-access) above. <br/><br/>
- 2. **Why am I getting error when trying to call the GetRegisteredEventListeners API?**
+ 2. **Why am I getting error when trying to call the GetRegisteredEventListeners API?**<br/>
 This API function is current unavailable in the Sandbox environment. It will  be available in Production. <br/>If you want to verify the URL was indeed registered, please contact the Product Integration Team with the URL and they will confirm.<br/><br/>
- 3. **We are not receiving any event in case of scheduled campaigns unless we press 'Run' and ignore the warning. Is this the valid step?**
+ 3. **We are not receiving any event in case of scheduled campaigns unless we press 'Run' and ignore the warning. Is this the valid step?**<br/>
 This is a valid behavior in the Sandbox environment. In your / client's production instance, a daily process will run the pre-scheduled campaigns and fire the event notifications.<br/><br/>
- 4. **Where can we see the metrics which we posted using UpdateCampaignMetrics?**
+ 4. **Where can we see the metrics which we posted using UpdateCampaignMetrics?**<br/>
 The client will see it the Campaign Analysis inside their production Optimove instance. This cannot be simulated in the Sandbox environment.<br/><br/>
- 5. **What Channel ID should we use?**
+ 5. **What Channel ID should we use?**<br/>
 In the Sandbox environment, you will be able to use the generic channels (email, sms, etc). Please see [Requesting Access](#request-access) above and fill out the relevant form. The Product Integration Team will enable the relevant channel requested.<br/> Note: Once in production, the Channel ID will be changed to your real designated Channel ID that will be created for you. <br/><br/>
- 6. **Why am I seeing many templates under my chosen channel?**
+ 6. **Why am I seeing many templates under my chosen channel?**<br/>
 Since its a shared environment, other Optimove’ clients, vendors/partners are synchronizing their templates for testing purposes only.
 
 <br/>
