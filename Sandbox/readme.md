@@ -19,6 +19,8 @@ To request Sandbox Site and API access, please use one of the links below:
 >  - The Sandbox environment consist of dummy data therefore you are unable to upload real data.
 >  The Sandbox environment is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported
 
+<br/>
+
 ### <a id="faq"></a>Frequently asked questions (FAQ)
 
  1. **Who can provide me access to the sandbox?**
@@ -34,6 +36,7 @@ In the Sandbox environment, you will be able to use the generic channels (email,
  6. **Why am I seeing many templates under my chosen channel?**
 Since its a shared environment, other Optimove’ clients, vendors/partners are synchronizing their templates for testing purposes only.
 
+<br/>
 
 ### <a id="exec-test-camp"></a>Executing a Pre-scheduled Test Campaign in the Sandbox site
  1.  In Optimove site, go to One-to-One campaign -> Run Campaign
