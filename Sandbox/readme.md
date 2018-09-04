@@ -13,7 +13,7 @@ To request Sandbox Site and API access, please click one of the links below to f
  - If you are a client: [Optimove Client Sandbox Request Form](http://bit.ly/Optimove_Client_Sandbox_Site_and_API_Request)
  - If you are a third party vendor / partner: [Partner / Third Party Vendor Sandbox Request Form](http://bit.ly/Optimove_Third_Party_Sandbox_Site_and_API_Request)
 
->**Note:**
+>**Notes:**
 >  - Once you fill in one of the requests form, the Optimove Product Integration team will review you request and create relevant access.
 >  - If any of the details in the request form are unclear, the Product Integration Team will contact you, therefore please enter a valid email address.
 >  - The Sandbox environment consist of dummy data therefore you are unable to upload real data.
