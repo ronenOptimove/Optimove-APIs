@@ -3,6 +3,7 @@ Optimove Sandbox environment is intended for both Optimove clients and third par
 
 - [Requesting Access](#request-access)
 - [Frequently asked questions (FAQ)](#faq)
+- [Sandbox general Channel ID list](#channel-list)
 - [Executing a Test Campaign in the Sandbox site](#exec-test-camp)
 
 <br/>
@@ -19,22 +20,43 @@ To request Sandbox Site and API access, please click one of the links below to f
 >  - The Sandbox environment consist of dummy data therefore you are unable to upload real data.
 >  The Sandbox environment is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported
 
-<br/>
+<hr>
+
+### <a id="channel-list"></a>Sandbox general Channel ID list
+Optimove created pre-defined channel ID for most general channel executions in the Sandbox environment. Please use the below list to test with the relevant Channel ID.
+
+ - Email: 504
+ - SMS: 505
+ - Call Center: 502
+ - Push Notification: 506
+ - Web Push: 510
+ - In-Platform (in-app): 511
+
+> **Note**:  Once in production, the CSM will provide you with your production Channel ID.  
+
+<hr>
 
 ### <a id="faq"></a>Frequently asked questions (FAQ)
 
- 1. **Who can provide me access to the sandbox?**<br/>
+ 1. **Who can provide me access to the sandbox?**
 Please see [Requesting Access](#request-access) above. <br/><br/>
- 2. **Why am I getting error when trying to call the GetRegisteredEventListeners API?**<br/>
+ 2. **Why am I getting error when trying to call the GetRegisteredEventListeners API?**
 This API function is current unavailable in the Sandbox environment. It will  be available in Production. <br/>If you want to verify the URL was indeed registered, please contact the Product Integration Team with the URL and they will confirm.<br/><br/>
- 3. **We are not receiving any event in case of scheduled campaigns unless we press 'Run' and ignore the warning. Is this the valid step?**<br/>
+ 3. **We are not receiving any event in case of scheduled campaigns unless we press 'Run' and ignore the warning. Is this the valid step?**
 This is a valid behavior in the Sandbox environment. In your / client's production instance, a daily process will run the pre-scheduled campaigns and fire the event notifications.<br/><br/>
- 4. **Where can we see the metrics which we posted using UpdateCampaignMetrics?**<br/>
+ 4. **Where can we see the metrics which we posted using UpdateCampaignMetrics?**
 The client will see it the Campaign Analysis inside their production Optimove instance. This cannot be simulated in the Sandbox environment.<br/><br/>
- 5. **What Channel ID should we use?**<br/>
-In the Sandbox environment, you will be able to use the generic channels (email, sms, etc). Please see [Requesting Access](#request-access) above and fill out the relevant form. The Product Integration Team will enable the relevant channel requested.<br/> Note: Once in production, the Channel ID will be changed to your real designated Channel ID that will be created for you. <br/><br/>
- 6. **Why am I seeing many templates under my chosen channel?**<br/>
+ 5. **What Channel ID should we use?**
+In the Sandbox environment, you will be able to use the generic channels (email, sms, etc). Please see [Requesting Access](#request-access) above and fill out the relevant form. The Product Integration Team will enable the relevant channel requested.<br/> 
+	> **Note**:  Once in production, the Channel ID will be changed to your real designated Channel ID that will be created for you. <br/><br/>
+	
+ 6. **Why am I seeing many templates under my chosen channel?**
 Since its a shared environment, other Optimove’ clients, vendors/partners are synchronizing their templates for testing purposes only.
+<br/>
+ 6. **Will I see the templates i have added using AddTemplate function?**
+Yes, you can use the [AddTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_AddTemplate) function in the Sandbox environment.
+
+	> **Note**: Since the Sandbox environment is a shared environment with other users, your template will be visible to them as well. If this is not an issue, it can remain in the Sandbox. If it is an issue, please use the [UpdateTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_UpdateTemplate) to change the content of the template accordingly.
 
 <br/>
 
