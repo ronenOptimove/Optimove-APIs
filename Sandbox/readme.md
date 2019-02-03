@@ -4,6 +4,7 @@ Optimove Sandbox environment is intended for both Optimove clients and third par
 - [Requesting Access](#request-access)
 - [Frequently asked questions (FAQ)](#faq)
 - [Sandbox general Channel ID list](#channel-list)
+- [Sandbox Third Party API list](#3p-access)
 - [Executing a Test Campaign in the Sandbox site](#exec-test-camp)
 
 <br/>
@@ -33,6 +34,39 @@ Optimove created pre-defined channel ID for most general channel executions in t
  - In-Platform (in-app): 511
 
 > **Note**:  Once in production, the CSM will provide you with your production Channel ID.  
+
+<hr>
+
+### <a id="3p-access"></a>Sandbox Third Party API list
+Third parties accessing Optimove API have limited access to the API list. The API list below represents all APIs required to execute a campaign through your channel. Below you will find the allowed API for Third Party Sandbox & Production API access.
+
+
+| ﻿API Category           | Available APIs                       | Notes                                                                       |
+|------------------------|--------------------------------------|-----------------------------------------------------------------------------|
+| /current/general/      | Login                                |                                                                             |
+| /current/general/      | GetLastDataUpdate                    | Will not work due to lack of daily in Sandbox environment only              |
+| /current/general/      | RegisterEventListener                | Only EventType=2 will work due to lack of daily in Sandbox environment only |
+| /current/general/      | UnRegisterEventListener              |                                                                             |
+| /current/general/      | GetRegisterEventListener             |                                                                             |
+| /current/actions/      | GetExecutedCampaignChannelDetails    |                                                                             |
+| /current/actions/      | GetExecutedCampaignsByChannel        |                                                                             |
+| /current/groups/       | GetTargetGroupID                     |                                                                             |
+| /current/groups/       | GetTargetGroupsByDate                |                                                                             |
+| /current/groups/       | GetTargetGroupDetails                |                                                                             |
+| /current/customers/    | GetCustomerOneTimeActionsByCampaign  |                                                                             |
+| /current/customers/    | GetCampaignInteractionCustomers      |                                                                             |
+| /current/customers/    | GetCustomerChannelInteractions       |                                                                             |
+| /current/customers/    | GetExternalRealtimeCampaignCustomers |                                                                             |
+| /current/integrations/ | AddChannelTemplates                  |                                                                             |
+| /current/integrations/ | GetChannelTemplates                  |                                                                             |
+| /current/integrations/ | GetChannelTemplatesDetails           |                                                                             |
+| /current/integrations/ | DeleteChannelTemplates               |                                                                             |
+| /current/integrations/ | AddChannelApps                       |                                                                             |
+| /current/integrations/ | DeleteChannelApps                    |                                                                             |
+| /current/integrations/ | UpdateCampaignMetrics                |                                                                             |
+| /current/integrations/ | UpdateCampaignInteractions           |                                                                             |
+| /current/integrations/ | SetCustomerChannelPreference         |                                                                             |
+|                        |                                      |                                                                             |
 
 <hr>
 
