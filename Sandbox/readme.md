@@ -23,6 +23,12 @@ To request Sandbox Site and API access, please click one of the links below to f
 
 <hr>
 
+### <a id="channel-list"></a>Sandbox Postman Examples
+
+- Click this button to download a Postman list of our **Optimove Client APIs**: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/15671b51c0b9cc7ab411#?env%5BSandbox-api%20endpoint%5D=W3siZGVzY3JpcHRpb24iOnsiY29udGVudCI6IiIsInR5cGUiOiJ0ZXh0L3BsYWluIn0sInZhbHVlIjoic2FuZGJveC1hcGkub3B0aW1vdmUubmV0Iiwia2V5IjoiQVBJX1VSTCIsImVuYWJsZWQiOnRydWV9LHsidmFsdWUiOiJGamRnSDBjN0VfVjZQcksyOVRMN1hMYlRMNi0xU2NJRyIsImtleSI6IkF1dGhUb2tlbiIsImVuYWJsZWQiOnRydWV9XQ==)
+- 
+<hr>
+
 ### <a id="channel-list"></a>Sandbox general Channel ID list
 Optimove created pre-defined channel ID for most general channel executions in the Sandbox environment. Please use the below list to test with the relevant Channel ID.
 
