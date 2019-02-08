@@ -4,8 +4,8 @@ Optimove Sandbox environment is intended for both Optimove clients and third par
 - [Requesting Access](#request-access)
 - [Sandbox general Channel ID list](#channel-list)
 - [Postman Examples](#postman-examples)
-- [Sandbox Third Party API list](#3p-access)
-- [Executing a Test Campaign in the Sandbox site](#exec-test-camp)
+- [Third Party API list](#3p-access)
+- [Executing a Test Campaign in the Sandbox UI site](#exec-test-camp)
 - [Frequently asked questions (FAQ)](#faq)
 <br/>
 
@@ -43,7 +43,7 @@ Optimove created pre-defined channel ID for most general channel executions in t
 
 <hr>
 
-### <a id="3p-access"></a>Sandbox Third Party API list
+### <a id="3p-access"></a>Third Party API list
 Third parties accessing Optimove API have limited access to the API list. The API list below represents all APIs required to execute a campaign through your channel. Below you will find the allowed API for Third Party Sandbox & Production API access.
 
 | ﻿API Category           | Available APIs                      | Notes                                                                       |
