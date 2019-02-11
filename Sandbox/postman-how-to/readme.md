@@ -5,7 +5,7 @@ If you don't already have **Postman** yes, please [download](https://www.getpost
 <hr>
 
 ### How To Video Clip
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9xyKygHlKqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9xyKygHlKqg/0.jpg)](https://www.youtube.com/watch?v=9xyKygHlKqg)
 
 <hr>
 
