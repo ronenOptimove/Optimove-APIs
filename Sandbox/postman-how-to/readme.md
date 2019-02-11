@@ -12,8 +12,9 @@ If you don't already have **Postman** yes, please [download](https://www.getpost
 ### Step 1: 
 
 - Note: We have two different collections. One for Optimove clients and the other for third parties. If you are a client, you have access to all our API library. If you are third party, there are limited APIs you can access. Please choose the correct one.
-- - API Collection for **Optimove Clients Only**:  [![API Collection for Optimove Clients Only](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/15671b51c0b9cc7ab411#?env%5BSandbox-api%20endpoint%5D=W3siZGVzY3JpcHRpb24iOnsiY29udGVudCI6IiIsInR5cGUiOiJ0ZXh0L3BsYWluIn0sInZhbHVlIjoic2FuZGJveC1hcGkub3B0aW1vdmUubmV0Iiwia2V5IjoiQVBJX1VSTCIsImVuYWJsZWQiOnRydWV9LHsidmFsdWUiOiJGamRnSDBjN0VfVjZQcksyOVRMN1hMYlRMNi0xU2NJRyIsImtleSI6IkF1dGhUb2tlbiIsImVuYWJsZWQiOnRydWV9XQ==)
-- -  API Collection for **Third Parties Only**: [![API Collection for Third Parties Only](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/78828d908da727e45f77#?env%5BSandbox-api%20endpoint%5D=W3siZGVzY3JpcHRpb24iOnsiY29udGVudCI6IiIsInR5cGUiOiJ0ZXh0L3BsYWluIn0sInZhbHVlIjoic2FuZGJveC1hcGkub3B0aW1vdmUubmV0Iiwia2V5IjoiQVBJX1VSTCIsImVuYWJsZWQiOnRydWV9LHsidmFsdWUiOiJGamRnSDBjN0VfVjZQcksyOVRMN1hMYlRMNi0xU2NJRyIsImtleSI6IkF1dGhUb2tlbiIsImVuYWJsZWQiOnRydWV9XQ==) 
+- - API Collection for **Optimove Clients Only**: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/15671b51c0b9cc7ab411#?env%5BSandbox-api%20endpoint%5D=W3siZGVzY3JpcHRpb24iOnsiY29udGVudCI6IiIsInR5cGUiOiJ0ZXh0L3BsYWluIn0sInZhbHVlIjoic2FuZGJveC1hcGkub3B0aW1vdmUubmV0Iiwia2V5IjoiQVBJX1VSTCIsImVuYWJsZWQiOnRydWV9LHsidmFsdWUiOiJGamRnSDBjN0VfVjZQcksyOVRMN1hMYlRMNi0xU2NJRyIsImtleSI6IkF1dGhUb2tlbiIsImVuYWJsZWQiOnRydWV9XQ==)
+
+- -  API Collection for **Third Parties Only**: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/78828d908da727e45f77#?env%5BSandbox-api%20endpoint%5D=W3siZGVzY3JpcHRpb24iOnsiY29udGVudCI6IiIsInR5cGUiOiJ0ZXh0L3BsYWluIn0sInZhbHVlIjoic2FuZGJveC1hcGkub3B0aW1vdmUubmV0Iiwia2V5IjoiQVBJX1VSTCIsImVuYWJsZWQiOnRydWV9LHsidmFsdWUiOiJGamRnSDBjN0VfVjZQcksyOVRMN1hMYlRMNi0xU2NJRyIsImtleSI6IkF1dGhUb2tlbiIsImVuYWJsZWQiOnRydWV9XQ==)
  - Windows: This will take you to: Choose "Postman for Windows" 
  - This will open your Postman software
 <hr>
