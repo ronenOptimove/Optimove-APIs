@@ -5,7 +5,9 @@ If you don't already have **Postman** yes, please [download](https://www.getpost
 <hr>
 
 ### How To Video Clip
-<video src="https://youtu.be/6-t1a_pzVKQ?list=RD6-t1a_pzVKQ" width="320" height="200" controls preload></video>
+<video src="https://youtu.be/6-t1a_pzVKQ?list=RD6-t1a_pzVKQ" width="320" height="200" poster="https://upload.wikimedia.org/wikipedia/en/1/1d/Optimove_Logo.png" controls preload></video>
+
+[![Audi R8](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=KOxbO0EI4MA "Audi R8")
 
 <hr>
 
