@@ -1,6 +1,12 @@
+## Optimove API collection with Postman - How To Guide
 
 ### Prerequisite
 If you don't already have **Postman** yes, please [download](https://www.getpostman.com/downloads/) one for Windows/Mac/Linux.
+<hr>
+
+### How To Video Clip
+<video src="https://youtu.be/6-t1a_pzVKQ?list=RD6-t1a_pzVKQ" width="320" height="200" controls preload></video>
+
 <hr>
 
 ### Step 1: 
