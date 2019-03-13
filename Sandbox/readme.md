@@ -55,6 +55,7 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 | /current/actions/      | GetExecutedCampaignChannelDetails   |                                                                             |
 | /current/actions/      | GetExecutedCampaignsByChannel       |                                                                             |
 | /current/customers/    | GetCustomerOneTimeActionsByCampaign |                                                                             |
+| /current/customers/    | GetCustomerSendDetailsByChannel	|                                                                             |
 | /current/customers/    | GetCampaignInteractionCustomers     |                                                                             |
 | /current/customers/    | GetCustomerChannelInteractions      |                                                                             |
 | /current/integrations/ | AddChannelTemplates                 |                                                                             |
