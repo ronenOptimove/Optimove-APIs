@@ -12,8 +12,8 @@ Optimove Sandbox environment is intended for both Optimove clients and third par
 ### <a id="request-access"></a>Requesting Access
 To request Sandbox Site and API access, please click one of the links below to fill our the relevant form: 
 
- - If you are a client: [Optimove Client Sandbox Request Form](http://bit.ly/Optimove_Client_Sandbox_Site_and_API_Request)
- - If you are a third party vendor / partner: [Partner / Third Party Vendor Sandbox Request Form](http://bit.ly/Optimove_Third_Party_Sandbox_Site_and_API_Request)
+ - If you are a client: [Optimove Client Sandbox Request Form](https://optimoveteams.atlassian.net/servicedesk/customer/portal/1/group/3/create/14)
+ - If you are a third party vendor / partner: [Partner / Third Party Vendor Sandbox Request Form](https://optimoveteams.atlassian.net/servicedesk/customer/portal/1/group/3/create/13)
 
 >**Notes:**
 >  - Once you fill in one of the requests form, the Optimove Product Integration team will review you request and create relevant access.
