@@ -2,6 +2,7 @@
 Optimove Sandbox environment is intended for both Optimove clients and third parties to test and simulate Optimove APIs before production usage.
 
 - [Requesting Access](#request-access)
+- [Sandbox Endpoints](#sandbox-url)
 - [Sandbox general Channel ID list](#channel-list)
 - [Postman Examples](#postman-examples)
 - [Third Party API list](#3p-access)
@@ -21,6 +22,12 @@ To request Sandbox Site and API access, please click one of the links below to f
 >  - The Sandbox environment consist of dummy data therefore you are unable to upload real data.
 >  The Sandbox environment is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported
 
+<hr>
+
+### <a id="sandbox-url"></a>Sandbox Endpoints
+
+Optimove UI: https://sandbox.optimove.net
+Optimove API: https://sandbox-api.optimove.net
 <hr>
 
 ### <a id="postman-examples"></a>Postman Examples
