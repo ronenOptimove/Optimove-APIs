@@ -26,8 +26,8 @@ To request Sandbox Site and API access, please click one of the links below to f
 
 ### <a id="sandbox-url"></a>Sandbox Endpoints
 
-Optimove UI: https://sandbox.optimove.net
-Optimove API: https://sandbox-api.optimove.net
+- Optimove UI: https://sandbox.optimove.net
+- Optimove API: https://sandbox-api.optimove.net
 <hr>
 
 ### <a id="postman-examples"></a>Postman Examples
