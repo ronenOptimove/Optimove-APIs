@@ -1,3 +1,4 @@
+
 ## Sandbox Environment Usage Guide
 Optimove Sandbox environment is intended for both Optimove clients and third parties to test and simulate Optimove APIs before production usage.
 
@@ -59,10 +60,11 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 | /current/general/      | RegisterEventListener               | Only EventType=2 will not work due to lack of daily in Sandbox environment only |
 | /current/general/      | UnRegisterEventListener             |                                                                             |
 | /current/general/      |GetRegisterEventListener            |											| 
-|/current/actions/      | GetCampaignDetails     |  												|
+|/current/actions/       | GetCampaignDetails     |  												|
 | /current/actions/      | GetExecutedCampaignChannelDetails   |                                                                             |
 | /current/actions/      | GetExecutedCampaignsByChannel       |                                                                             |
-| /current/customers/    | GetCustomerOneTimeActionsByCampaign |                                                                             |
+| /current/customers/    | GetCustomerOneTimeActionsByCampaign | |
+| /current/customers/    | GetCustomerAttributeChangers |                                                     					|
 | /current/customers/    | GetCustomerSendDetailsByChannel	|                                                                             |
 | /current/customers/    | GetCampaignInteractionCustomers     |                                                                             |
 | /current/customers/    | GetCustomerChannelInteractions      |                                                                             |
