@@ -14,8 +14,8 @@ Optimove Sandbox environment is intended for both Optimove clients and third par
 ### <a id="request-access"></a>Requesting Access
 To request Sandbox Site and API access, please click one of the links below to fill our the relevant form: 
 
- - If you are a client: [Optimove Client Sandbox Request Form](https://optimoveteams.atlassian.net/servicedesk/customer/portal/1/group/3/create/14)
- - If you are a third party vendor / partner: [Partner / Third Party Vendor Sandbox Request Form](https://optimoveteams.atlassian.net/servicedesk/customer/portal/1/group/3/create/13)
+ - If you are a client: [Optimove Client Sandbox Request Form](https://optimoveww.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000357937) choose "Sandbox API (Optimove Client Access)"
+ - If you are a third party vendor / partner: [Partner / Third Party Vendor Sandbox Request Form](https://optimoveww.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000357937) choose "Sandbox API (Third Party Vendor Access)"
 
 >**Notes:**
 >  - Once you fill in one of the requests form, the Optimove Product Integration team will review you request and create relevant access.
@@ -63,11 +63,13 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 |/current/actions/       | GetCampaignDetails     |  												|
 | /current/actions/      | GetExecutedCampaignChannelDetails   |                                                                             |
 | /current/actions/      | GetExecutedCampaignsByChannel       |                                                                             |
+| /current/actions/	 | GetCampaignDetails                  |                                                                              |
 | /current/customers/    | GetCustomerOneTimeActionsByCampaign | |
 | /current/customers/    | GetCustomerAttributeChangers |                                                     					|
 | /current/customers/    | GetCustomerSendDetailsByChannel	|                                                                             |
 | /current/customers/    | GetCampaignInteractionCustomers     |                                                                             |
 | /current/customers/    | GetCustomerChannelInteractions      |                                                                             |
+| /current/customers/    | GetCustomerExecutionDetailsByCampaign      |                                                                             |
 | /current/integrations/ | AddChannelTemplates                 |                                                                             |
 | /current/integrations/ | GetChannelTemplates                 |                                                                             |
 | /current/integrations/ | GetChannelTemplatesDetails          |                                                                             |
