@@ -11,7 +11,7 @@
  1. As an Optimove client, you wish to integrate to an external service with Optimove and act as the middle-ware.
  2. As a third party vendor / partner, you are interested in using Optimove to automatically send customer campaigns via your marketing platform.
 
-<p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-%20Pre-Scheduled%20-%20Client%20Execution%20Flow.png?raw=true"></p>
+<p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-%20Mor%20-%20Client%20Execution%20for%20Github.png?raw=true"></p>
 
 >**Notes**: 
 > -   For API Authentication (#1 above) best practice refer to -   [Login API best practice & use cases](https://github.com/optimoveproductintegration/Optimove-APIs/tree/master/Login-API)
