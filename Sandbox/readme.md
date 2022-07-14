@@ -59,7 +59,7 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 | /current/general/      | GetLastDataUpdate                   | Will not work due to lack of daily in Sandbox environment only              |
 | /current/general/      | RegisterEventListener               | Only EventType=2 will not work due to lack of daily in Sandbox environment only |
 | /current/general/      | UnRegisterEventListener             |                                                                             |
-| /current/general/      |GetRegisterEventListener            |											| 
+| /current/general/      |GetRegisteredEventListener            |											| 
 |/current/actions/       | GetCampaignDetails     |  												|
 | /current/actions/      | GetExecutedCampaignChannelDetails   |                                                                             |
 | /current/actions/      | GetExecutedCampaignsByChannel       |                                                                             |
@@ -97,7 +97,7 @@ Third parties accessing Optimove API have limited access to the API list. The AP
  9. For “Time of Day” select your time NOW plus 10 mins (example: Say the time now is 10:00, then choose 10:10). 
  10. Click on the "Done" button
  11. Click “Schedule” button to schedule the campaign
- 12. Since the sandbox does not run automatically with updated daily data, you need go to the Marketing Plan and click on Run-Now (Play button) in order to send the campaign (see image below):
+ 12. Since the sandbox does not run automatically with updated daily data, you need to go to the Marketing Plan and click on Run-Now (Play button) in order to send the campaign (see image below):
  <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/Sandbox/marking-plan-run-camp.jpg?raw=true"></p> 
  
  13.  After a quick processing, the notification should be sent to your registered listener endpoint
@@ -108,17 +108,15 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 
  1. **Who can provide me access to the sandbox?**
 Please see [Requesting Access](#request-access) above. <br/><br/>
- 2. **Why am I getting error when trying to call the GetRegisteredEventListeners API?**
-This API function is current unavailable in the Sandbox environment. It will  be available in Production. <br/>If you want to verify the URL was indeed registered, please contact the Product Integration Team with the URL and they will confirm.<br/><br/>
- 3. **We are not receiving any event in case of scheduled campaigns unless we press 'Run' and ignore the warning. Is this the valid step?**
+ 2. **We are not receiving any event in case of scheduled campaigns unless we press 'Run' and ignore the warning. Is this the valid step?**
 This is a valid behavior in the Sandbox environment. In your / client's production instance, a daily process will run the pre-scheduled campaigns and fire the event notifications.<br/><br/>
- 4. **Where can we see the metrics which we posted using UpdateCampaignMetrics?**
+ 3. **Where can we see the metrics which we posted using UpdateCampaignMetrics?**
 The client will see it the Campaign Analysis inside their production Optimove instance. This cannot be simulated in the Sandbox environment.<br/><br/>
- 5. **What Channel ID should we use?**
+ 4. **What Channel ID should we use?**
 In the Sandbox environment, you will be able to use the generic channels (email, sms, etc). Please see [Requesting Access](#request-access) above and fill out the relevant form. The Product Integration Team will enable the relevant channel requested.<br/> 
 	> **Note**:  Once in production, the Channel ID will be changed to your real designated Channel ID that will be created for you. <br/><br/>
 	
- 6. **Why am I seeing many templates under my chosen channel?**
+ 5. **Why am I seeing many templates under my chosen channel?**
 Since its a shared environment, other Optimove’ clients, vendors/partners are synchronizing their templates for testing purposes only.
 <br/>
  6. **Will I see the templates i have added using AddTemplate function?**
