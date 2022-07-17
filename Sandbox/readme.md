@@ -87,8 +87,7 @@ Third parties accessing Optimove API have limited access to the API list. The AP
  1.  In Optimove site, go to One-to-One campaign -> Run Campaign
  2.  Select the current date / today's date - The sandbox is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported)
  3.  Select a random test Target Group - You can duplicate an existing one and rename it)
- 4.  In order to be able to create and run multiple campaigns on the same customers, you should always tick the "Include All" section (see below): 
-<p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/images/campaign%20builder.png"></p>
+ 4. In order to be able to create and run multiple campaigns on the same customers, you should always untick the "exclusion" section (see below): <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/Sandbox/one-to-one-camp.jpg?raw=true"></p>
 
  5. Choose a random measurement under "Measure" and click on the "Next" button
  6. In the "action" section, select a random Action
