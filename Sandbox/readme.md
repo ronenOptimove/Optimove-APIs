@@ -93,7 +93,7 @@ Third parties accessing Optimove API have limited access to the API list. The AP
  7.  Choose one of the templates you have synchronized to this channel 
  8.  For “Time” select your time NOW plus 10 mins (example: Say the time now is 10:00, then choose 10:10). 
  9.  Click “Create campaign” button to schedule the campaign
- 10.  Since the sandbox does not run automatically with updated daily data, you need to go to the Mission control and search for your campaign, click on the tree dots on Run Today's Occurrence (Play button) in order to send the campaign (see image below): <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/images/run%20todays%20occurrence.png"></p> 
+ 10.  Since the sandbox does not run automatically with updated daily data, you need to go to the Mission control and search for your campaign, click on the three dots on Run Today's Occurrence (Play button) in order to send the campaign (see image below): <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/images/run%20todays%20occurrence.png"></p> 
  11.  After a quick processing, the notification should be sent to your registered listener endpoint
  12.  Now you can retrieve the campaign details
 <hr>
