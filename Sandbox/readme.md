@@ -87,7 +87,7 @@ Third parties accessing Optimove API have limited access to the API list. The AP
  1.  In Optimove site, go to One-to-One campaign -> Campaign Builder
  2.  Select a random test Target Group - You can duplicate an existing one and rename it)
  3.  In order to be able to create and run multiple campaigns on the same customers, you should always tick the "Include All" section (see below): <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/images/campaign%20builder.png"></p>
- 4.  In the "Scheduling" section choose the current data, and a random measurment way.
+ 4.  In the "Scheduling" section choose the current date as a Start date, and a random measurment way.
  5.  In the "Execution Details" section, select a random Action
  6.  When choosing a Channel, choose the exact same one your registered a listener to (see [Integrate Your Service with Optimove - Best Practices](https://github.com/optimove-tech/Optimove-APIs/tree/master/API-Integrations)). 
  7.  Choose one of the templates you have synchronized to this channel 
