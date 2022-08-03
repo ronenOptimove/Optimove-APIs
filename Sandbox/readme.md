@@ -4,8 +4,10 @@ Optimove Sandbox environment is intended for both Optimove clients and third par
 
 - [Requesting Access](#request-access)
 - [Sandbox Endpoints](#sandbox-url)
-- [Sandbox general Channel ID list](#channel-list)
 - [Postman Examples](#postman-examples)
+- [Sandbox general Channel ID list](#channel-list)
+- [Sandbox best practices](#best-practices)
+- [Links to documentation](#documentation-links)
 - [Third Party API list](#3p-access)
 - [Executing a Test Campaign in the Sandbox UI site](#exec-test-camp)
 - [Frequently asked questions (FAQ)](#faq)
@@ -50,6 +52,16 @@ Optimove created pre-defined channel ID for most general channel executions in t
 
 <hr>
 
+### <a id="best-practices"></a>Sandbox best practices
+When you are working with our Sandbox enviorment we suggest to follow our best practices in order to avoid 
+1. Do not delete campaigns that you didnt create
+2. when building API integration, register event listener, type 13 with a specific channel
+3. for promo integretion system you dont need to register listner with channel. 
+<hr>
+### <a id="documentation links"></a>Links to documentation 
+Channel integration: https://docs.optimove.com/integrate-your-service-with-optimove/ 
+Promo system integration: https://academy.optimove.com/en/article/promotion-system-integration
+<hr>
 ### <a id="3p-access"></a>Third Party API list
 Third parties accessing Optimove API have limited access to the API list. The API list below represents all APIs required to execute a campaign through your channel. Below you will find the allowed API for Third Party Sandbox & Production API access.
 
