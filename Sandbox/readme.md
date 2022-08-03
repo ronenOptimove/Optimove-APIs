@@ -58,7 +58,8 @@ When you are working with our Sandbox enviorment we suggest to follow our best p
 2. when building API integration, register event listener, type 13 with a specific channel
 3. for promo integretion system you dont need to register listner with channel. 
 <hr>
-### <a id="documentation links"></a>Links to documentation 
+### <a id="documentation links"></a> Links to documentation 
+
 Channel integration: https://docs.optimove.com/integrate-your-service-with-optimove/ 
 Promo system integration: https://academy.optimove.com/en/article/promotion-system-integration
 <hr>
