@@ -57,13 +57,16 @@ When you are working with our Sandbox enviorment we suggest to follow our best p
 1. Do not delete campaigns that you didnt create
 2. when building API integration, register event listener, type 13 with a specific channel
 3. for promo integretion system you dont need to register listner with channel. 
+
 <hr>
 ### <a id="documentation links"></a> Links to documentation 
 
 Channel integration: https://docs.optimove.com/integrate-your-service-with-optimove/ 
 Promo system integration: https://academy.optimove.com/en/article/promotion-system-integration
+
 <hr>
-### <a id="3p-access"></a>Third Party API list
+
+### <a id="3p-access"></a> Third Party API list
 Third parties accessing Optimove API have limited access to the API list. The API list below represents all APIs required to execute a campaign through your channel. Below you will find the allowed API for Third Party Sandbox & Production API access.
 
 | ﻿API Category           | Available APIs                      | Notes                                                                       |
