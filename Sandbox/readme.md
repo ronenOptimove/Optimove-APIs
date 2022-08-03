@@ -60,9 +60,10 @@ When you are working with our Sandbox enviorment we suggest to follow our best p
 
 <hr>
 
-### <a id="documentation links"></a> Links to documentation 
+### <a id="documentation-links"></a> Links to documentation 
 
 Channel integration: https://docs.optimove.com/integrate-your-service-with-optimove/ 
+<br>
 Promo system integration: https://academy.optimove.com/en/article/promotion-system-integration
 
 <hr>
