@@ -56,9 +56,10 @@ Optimove created pre-defined channel ID for most general channel executions in t
 
 ### <a id="best-practices"></a>Sandbox best practices
 When you are working with our Sandbox enviorment we suggest to follow our best practices in order to avoid 
-1. Do not delete campaigns that you didnt create
-2. when building API integration, register event listener, type 13 with a specific channel
-3. for promo integretion system you dont need to register listner with channel. 
+
+1. Registration of an Event Listener for Event Type 13 with a specific channel will reduce the number of listeners Optimove needs to reach once a campaign has been completed.
+2. Do not delete campaigns that you didnt create
+3. For promo integration system you don't need to register listener with a specific channel.
 
 <hr>
 
