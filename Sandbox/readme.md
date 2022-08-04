@@ -1,5 +1,5 @@
 
-## Sandbox Environment Usage Guide
+# Sandbox Environment Usage Guide
 In the Optimove Sandbox environment, clients and third parties can test and simulate Optimove APIs before going live. It is used to send customer campaigns via external services. <br>
 The Sandbox site simulate production site for schedule campaigns and it contains dummy data. 
 
