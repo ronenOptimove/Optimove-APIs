@@ -3,14 +3,23 @@
 In the Optimove Sandbox environment, clients and third parties can test and simulate Optimove APIs before going live. It is used to send customer campaigns via external services. <br>
 The Sandbox site simulate production site for schedule campaigns and it contains dummy data. 
 
-- [Requesting Access](#request-access)
-- [Sandbox Endpoints](#sandbox-url)
-- [Postman Examples](#postman-examples)
-- [Sandbox general Channel ID list](#channel-list)
-- [Sandbox best practices](#best-practices)
-- [Links to documentation](#documentation-links)
-- [Sandbox Limitation](#sandbox-limitations)
+***prerequisite***
+ - [Requesting Access](#request-access)
+ - [Sandbox Endpoints](#sandbox-url)
+ - [Postman Examples](#postman-examples)
+
+***General information***
+
+ - [Links to documentation](#documentation-links)
+ -  [Sandbox general Channel ID list](#channel-list) 
+ - [Sandbox best practices](#best-practices) 
+ - [Sandbox Limitation](#sandbox-limitations)
+
+ 
+ ***Sandbox for Third parys*** 
 - [Third Party API list](#3p-access)
+
+***How to use sandbox***
 - [Executing a Test Campaign in the Sandbox UI site](#exec-test-camp)
 - [Frequently asked questions (FAQ)](#faq)
 <br/>
