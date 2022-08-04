@@ -34,9 +34,7 @@ To request Sandbox Site and API access, please click one of the links below to f
 >  - Once you fill in one of the requests form, the Optimove Product Integration team will review you request and create relevant access.
 >  - If any of the details in the request form are unclear, the Product Integration Team will contact you, therefore please enter a valid email address.
 
-
 <hr>
-
 ### <a id="sandbox-url"></a>Sandbox Endpoints
 
 - Optimove UI: https://sandbox.optimove.net
@@ -46,6 +44,13 @@ To request Sandbox Site and API access, please click one of the links below to f
 ### <a id="postman-examples"></a>Postman Examples
 
 We have created a Postman collection in order to help you test and use our APIs. Please follow the instructions in our [Postman How To Guide](https://github.com/optimove-tech/Optimove-APIs/blob/master/Sandbox/postman-how-to/readme.md).
+<hr>
+### <a id="documentation-links"></a> Links to documentation 
+
+Channel integration: https://docs.optimove.com/integrate-your-service-with-optimove/ 
+<br>
+Promo system integration: https://academy.optimove.com/en/article/promotion-system-integration
+
 <hr>
 
 ### <a id="channel-list"></a>Sandbox general Channel ID list
@@ -71,13 +76,6 @@ When you are working with our Sandbox enviorment we suggest to follow our best p
 
 <hr>
 
-### <a id="documentation-links"></a> Links to documentation 
-
-Channel integration: https://docs.optimove.com/integrate-your-service-with-optimove/ 
-<br>
-Promo system integration: https://academy.optimove.com/en/article/promotion-system-integration
-
-<hr>
 
 ### <a id="sandbox-limitations"></a> Sandbox limitations
 1. Sandbox environment support only schedule campaigns
