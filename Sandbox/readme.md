@@ -1,6 +1,7 @@
 
 ## Sandbox Environment Usage Guide
-Optimove Sandbox environment is intended for both Optimove clients and third parties to test and simulate Optimove APIs before production usage.
+In the Optimove Sandbox environment, clients and third parties can test and simulate Optimove APIs before going live. It is used to send customer campaigns via external services. <br>
+The Sandbox site simulate production site for schedule campaigns and it contains dummy data. 
 
 - [Requesting Access](#request-access)
 - [Sandbox Endpoints](#sandbox-url)
@@ -8,6 +9,7 @@ Optimove Sandbox environment is intended for both Optimove clients and third par
 - [Sandbox general Channel ID list](#channel-list)
 - [Sandbox best practices](#best-practices)
 - [Links to documentation](#documentation-links)
+- [Sandbox Limitation](#sandbox-limitations)
 - [Third Party API list](#3p-access)
 - [Executing a Test Campaign in the Sandbox UI site](#exec-test-camp)
 - [Frequently asked questions (FAQ)](#faq)
@@ -65,6 +67,13 @@ When you are working with our Sandbox enviorment we suggest to follow our best p
 Channel integration: https://docs.optimove.com/integrate-your-service-with-optimove/ 
 <br>
 Promo system integration: https://academy.optimove.com/en/article/promotion-system-integration
+
+<hr>
+
+### <a id="sandbox-limitations"></a> Sandbox limitations
+1. Sandbox environment support only schedule campaigns
+2. Real time campaigns cannot be test there
+3. As it's a shared environment, you can't upload your own data, and you might receive notifications for campaigns that other users have created
 
 <hr>
 
