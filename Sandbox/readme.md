@@ -1,12 +1,22 @@
+# Sandbox Environment Usage Guide
+In the Optimove Sandbox environment, clients and third parties can test and simulate Optimove APIs before going live. This environment is used when building your integration with Optimove for channel execution or promotion integration. The Sandbox site simulates an Optimove production site so you can setup customer campaigns to verify your API integration. <br>
 
-## Sandbox Environment Usage Guide
-Optimove Sandbox environment is intended for both Optimove clients and third parties to test and simulate Optimove APIs before production usage.
+***Prerequisites***
+ - [Requesting Access](#request-access)
+ - [Sandbox Endpoints](#sandbox-url)
+ - [Postman Examples](#postman-examples)
 
-- [Requesting Access](#request-access)
-- [Sandbox Endpoints](#sandbox-url)
-- [Sandbox general Channel ID list](#channel-list)
-- [Postman Examples](#postman-examples)
+***General information***
+
+ - [Links to documentation](#documentation-links)
+ - [Sandbox general Channel ID list](#channel-list) 
+ - [Sandbox best practices](#best-practices) 
+ - [Sandbox Limitation](#sandbox-limitations)
+ 
+ ***Sandbox for Third parties*** 
 - [Third Party API list](#3p-access)
+
+***How to use sandbox***
 - [Executing a Test Campaign in the Sandbox UI site](#exec-test-camp)
 - [Frequently asked questions (FAQ)](#faq)
 <br/>
@@ -20,8 +30,6 @@ To request Sandbox Site and API access, please click one of the links below to f
 >**Notes:**
 >  - Once you fill in one of the requests form, the Optimove Product Integration team will review you request and create relevant access.
 >  - If any of the details in the request form are unclear, the Product Integration Team will contact you, therefore please enter a valid email address.
->  - The Sandbox environment consist of dummy data therefore you are unable to upload real data.
->  The Sandbox environment is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported
 
 <hr>
 
@@ -36,6 +44,15 @@ To request Sandbox Site and API access, please click one of the links below to f
 We have created a Postman collection in order to help you test and use our APIs. Please follow the instructions in our [Postman How To Guide](https://github.com/optimove-tech/Optimove-APIs/blob/master/Sandbox/postman-how-to/readme.md).
 <hr>
 
+
+### <a id="documentation-links"></a> Links to documentation 
+
+Channel integration: https://docs.optimove.com/integrate-your-service-with-optimove/ 
+<br>
+Promo system integration: https://academy.optimove.com/en/article/promotion-system-integration
+
+<hr>
+
 ### <a id="channel-list"></a>Sandbox general Channel ID list
 Optimove created pre-defined channel ID for most general channel executions in the Sandbox environment. Please use the below list to test with the relevant Channel ID.
 
@@ -46,11 +63,30 @@ Optimove created pre-defined channel ID for most general channel executions in t
  - Web Push: 510
  - In-Platform (in-app): 511
 
-> **Note**:  Once in production, the CSM will provide you with your production Channel ID.  
+> **Note**:  Once in production, the CS Solution Engineer will provide you with your production Channel ID.  
 
 <hr>
 
-### <a id="3p-access"></a>Third Party API list
+### <a id="best-practices"></a>Sandbox Best Practices
+When working with Optimove's Sandbox environment, we suggest following our best practices as stated here: 
+
+1. Registering your Event Listener for Event Type 13 with a specific channel will reduce the number of notifications you will receive to only the relevant channel you are testing. Remember, this is a shared environment and there are other campaigns running on similar channels or different ones. 
+2. Do not delete campaigns that you did not create, this can affect the implementation of other integrations.
+3. If you are using Sandbox to integrate with your promotion system, you do not require to register a listener with a specific channel. This is optional.
+
+<hr>
+
+
+### <a id="sandbox-limitations"></a> Sandbox limitations
+1. The Sandbox environment supports the testing and integration of only scheduled campaigns
+2. Real time campaigns cannot be tested in the Sandbox site.
+3. The Sandbox environment consist of dummy data therefore you are unable to upload real data.
+4. The Sandbox environment is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported
+
+<hr>
+
+
+### <a id="3p-access"></a> Third Party API list
 Third parties accessing Optimove API have limited access to the API list. The API list below represents all APIs required to execute a campaign through your channel. Below you will find the allowed API for Third Party Sandbox & Production API access.
 
 | ﻿API Category           | Available APIs                      | Notes                                                                       |
@@ -59,7 +95,7 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 | /current/general/      | GetLastDataUpdate                   | Will not work due to lack of daily in Sandbox environment only              |
 | /current/general/      | RegisterEventListener               | Only EventType=2 will not work due to lack of daily in Sandbox environment only |
 | /current/general/      | UnRegisterEventListener             |                                                                             |
-| /current/general/      |GetRegisteredEventListener            |											| 
+| /current/general/      | GetRegisteredEventListener            |											| 
 |/current/actions/       | GetCampaignDetails     |  												|
 | /current/actions/      | GetExecutedCampaignChannelDetails   |                                                                             |
 | /current/actions/      | GetExecutedCampaignsByChannel       |                                                                             |
@@ -83,24 +119,9 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 
 <hr>
 
-### <a id="exec-test-camp"></a>Executing a Pre-scheduled Test Campaign in the Sandbox site
- 1.  In Optimove site, go to One-to-One campaign -> Run Campaign
- 2.  Select the current date / today's date - The sandbox is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported)
- 3.  Select a random test Target Group - You can duplicate an existing one and rename it)
- 4. In order to be able to create and run multiple campaigns on the same customers, you should always untick the "exclusion" section (see below): <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/Sandbox/one-to-one-camp.jpg?raw=true"></p>
 
- 5. Choose a random measurement under "Measure" and click on the "Next" button
- 6. In the "action" section, select a random Action
- 7. When choosing a Channel, choose the exact same one your registered a listener to (see [Integrate Your Service with Optimove - Best Practices](https://github.com/optimove-tech/Optimove-APIs/tree/master/API-Integrations)). 
- 8. Choose one of the templates you have synchronized to this channel 
- 9. For “Time of Day” select your time NOW plus 10 mins (example: Say the time now is 10:00, then choose 10:10). 
- 10. Click on the "Done" button
- 11. Click “Schedule” button to schedule the campaign
- 12. Since the sandbox does not run automatically with updated daily data, you need to go to the Marketing Plan and click on Run-Now (Play button) in order to send the campaign (see image below):
- <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/Sandbox/marking-plan-run-camp.jpg?raw=true"></p> 
- 
- 13.  After a quick processing, the notification should be sent to your registered listener endpoint
- 14. Now you can retrieve the campaign details
+### <a id="exec-test-camp"></a>Executing a Pre-scheduled Test Campaign in the Sandbox site
+
 <hr>
 
 ### <a id="faq"></a>Frequently asked questions (FAQ)
@@ -118,7 +139,9 @@ In the Sandbox environment, you will be able to use the generic channels (email,
  5. **Why am I seeing many templates under my chosen channel?**
 Since its a shared environment, other Optimove’ clients, vendors/partners are synchronizing their templates for testing purposes only.
 <br/>
- 6. **Will I see the templates i have added using AddTemplate function?**
-Yes, you can use the [AddTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_AddTemplate) function in the Sandbox environment.
 
-	> **Note**: Since the Sandbox environment is a shared environment with other users, your template will be visible to them as well. If this is not an issue, it can remain in the Sandbox. If it is an issue, please use the [UpdateTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_UpdateTemplate) to change the content of the template accordingly.
+ 6. **Will I see the templates I have added using AddTemplate function?** 
+Yes, you can use the [AddTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_AddTemplate) function in the Sandbox environment.
+<br>
+
+> **Note**: Since the Sandbox environment is a shared environment with other users, your template will be visible to them as well. If this is not an issue, it can remain in the Sandbox. If it is an issue, please use the [UpdateTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_UpdateTemplate) to change the content of the template accordingly.
