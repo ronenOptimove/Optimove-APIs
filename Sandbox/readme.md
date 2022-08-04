@@ -24,8 +24,7 @@ To request Sandbox Site and API access, please click one of the links below to f
 >**Notes:**
 >  - Once you fill in one of the requests form, the Optimove Product Integration team will review you request and create relevant access.
 >  - If any of the details in the request form are unclear, the Product Integration Team will contact you, therefore please enter a valid email address.
->  - The Sandbox environment consist of dummy data therefore you are unable to upload real data.
->  The Sandbox environment is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported
+
 
 <hr>
 
@@ -74,7 +73,8 @@ Promo system integration: https://academy.optimove.com/en/article/promotion-syst
 ### <a id="sandbox-limitations"></a> Sandbox limitations
 1. Sandbox environment support only schedule campaigns
 2. Real time campaigns cannot be test there
-3. As it's a shared environment, you can't upload your own data, and you might receive notifications for campaigns that other users have created
+3. The Sandbox environment consist of dummy data therefore you are unable to upload real data.
+4. The Sandbox environment is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported
 
 <hr>
 
