@@ -1,7 +1,6 @@
 
 # Sandbox Environment Usage Guide
-In the Optimove Sandbox environment, clients and third parties can test and simulate Optimove APIs before going live. It is used to send customer campaigns via external services. <br>
-The Sandbox site simulate production site for schedule campaigns and it contains dummy data. 
+In the Optimove Sandbox environment, clients and third parties can test and simulate Optimove APIs before going live. This environment is used when building your integration with Optimove for channel execution or promotion integration. The Sandbox site simulates an Optimove production site so you can setup customer campaigns to verify your API integration. <br>
 
 ***Prerequisites***
  - [Requesting Access](#request-access)
@@ -65,23 +64,23 @@ Optimove created pre-defined channel ID for most general channel executions in t
  - Web Push: 510
  - In-Platform (in-app): 511
 
-> **Note**:  Once in production, the CSM will provide you with your production Channel ID.  
+> **Note**:  Once in production, the CS Solution Engineer will provide you with your production Channel ID.  
 
 <hr>
 
-### <a id="best-practices"></a>Sandbox best practices
-When you are working with our Sandbox enviorment we suggest to follow our best practices in order to avoid 
+### <a id="best-practices"></a>Sandbox Best Practices
+When working with Optimove's Sandbox environment, we suggest following our best practices as stated here: 
 
-1. Registration of an Event Listener for Event Type 13 with a specific channel will reduce the number of listeners Optimove needs to reach once a campaign has been processed.
-2. Do not delete campaigns that you didnt create
-3. For promo integration system you don't need to register listener with a specific channel.
+1. Registering your Event Listener for Event Type 13 with a specific channel will reduce the number of notifications you will receive to only the relevant channel you are testing. Remember, this is a shared environment and there are other campaigns running on similar channels or different ones. 
+2. Do not delete campaigns that you did not create, this can affect the implementation of other integrations.
+3. If you are using Sandbox to integrate with your promotion system, you do not require to register a listener with a specific channel. This is optional.
 
 <hr>
 
 
 ### <a id="sandbox-limitations"></a> Sandbox limitations
-1. Sandbox environment support only schedule campaigns
-2. Real time campaigns cannot be test there
+1. The Sandbox environment supports the testing and integration of only scheduled campaigns
+2. Real time campaigns cannot be tested in the Sandbox site.
 3. The Sandbox environment consist of dummy data therefore you are unable to upload real data.
 4. The Sandbox environment is a static environment and does not have updated daily data, therefore creating campaign for future date & time is not supported
 
@@ -97,7 +96,7 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 | /current/general/      | GetLastDataUpdate                   | Will not work due to lack of daily in Sandbox environment only              |
 | /current/general/      | RegisterEventListener               | Only EventType=2 will not work due to lack of daily in Sandbox environment only |
 | /current/general/      | UnRegisterEventListener             |                                                                             |
-| /current/general/      |GetRegisteredEventListener            |											| 
+| /current/general/      | GetRegisteredEventListener            |											| 
 |/current/actions/       | GetCampaignDetails     |  												|
 | /current/actions/      | GetExecutedCampaignChannelDetails   |                                                                             |
 | /current/actions/      | GetExecutedCampaignsByChannel       |                                                                             |
@@ -124,9 +123,9 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 
 ### <a id="exec-test-camp"></a>Executing a Pre-scheduled Test Campaign in the Sandbox site
  1.  In Optimove site, go to One-to-One campaign -> Campaign Builder
- 2.  Select a random test Target Group - You can duplicate an existing one and rename it)
- 3.  In order to be able to create and run multiple campaigns on the same customers, you should always tick the "Include All" section (see below): <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/images/campaign%20builder.png"></p>
- 4.  In the "Scheduling" section choose the current date as a Start date, and a random measurment way.
+ 2.  Select a random test Target Group - You can duplicate an existing one and rename it
+ 3.  In order to be able to create and run multiple campaigns for the same set of customers, you should always tick the "Include All" section (see below): <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/images/campaign%20builder.png"></p>
+ 4.  In the "Scheduling" section choose the current date as a Start date, and a random measurement way.
  5.  In the "Execution Details" section, select a random Action
  6.  When choosing a Channel, choose the exact same one your registered a listener to (see [Integrate Your Service with Optimove - Best Practices](https://github.com/optimove-tech/Optimove-APIs/tree/master/API-Integrations)). 
  7.  Choose one of the templates you have synchronized to this channel 
