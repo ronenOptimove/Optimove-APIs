@@ -1,4 +1,3 @@
-
 # Sandbox Environment Usage Guide
 In the Optimove Sandbox environment, clients and third parties can test and simulate Optimove APIs before going live. This environment is used when building your integration with Optimove for channel execution or promotion integration. The Sandbox site simulates an Optimove production site so you can setup customer campaigns to verify your API integration. <br>
 
@@ -152,7 +151,7 @@ In the Sandbox environment, you will be able to use the generic channels (email,
 Since its a shared environment, other Optimove’ clients, vendors/partners are synchronizing their templates for testing purposes only.
 <br/>
 
- 6. **Will I see the templates i have added using AddTemplate function?** 
+ 6. **Will I see the templates I have added using AddTemplate function?** 
 Yes, you can use the [AddTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_AddTemplate) function in the Sandbox environment.
 <br>
 
