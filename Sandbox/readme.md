@@ -23,7 +23,7 @@ The Sandbox site simulate production site for schedule campaigns and it contains
 - [Executing a Test Campaign in the Sandbox UI site](#exec-test-camp)
 - [Frequently asked questions (FAQ)](#faq)
 <br/>
-##  prerequisite
+
 ### <a id="request-access"></a>Requesting Access
 To request Sandbox Site and API access, please click one of the links below to fill our the relevant form: 
 
@@ -46,7 +46,7 @@ To request Sandbox Site and API access, please click one of the links below to f
 We have created a Postman collection in order to help you test and use our APIs. Please follow the instructions in our [Postman How To Guide](https://github.com/optimove-tech/Optimove-APIs/blob/master/Sandbox/postman-how-to/readme.md).
 <hr>
 
-##  General information 
+
 ### <a id="documentation-links"></a> Links to documentation 
 
 Channel integration: https://docs.optimove.com/integrate-your-service-with-optimove/ 
@@ -87,7 +87,7 @@ When you are working with our Sandbox enviorment we suggest to follow our best p
 
 <hr>
 
-##  sandbox for third partys 
+
 ### <a id="3p-access"></a> Third Party API list
 Third parties accessing Optimove API have limited access to the API list. The API list below represents all APIs required to execute a campaign through your channel. Below you will find the allowed API for Third Party Sandbox & Production API access.
 
@@ -121,7 +121,7 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 
 <hr>
 
-## How to use sandbox 
+
 ### <a id="exec-test-camp"></a>Executing a Pre-scheduled Test Campaign in the Sandbox site
  1.  In Optimove site, go to One-to-One campaign -> Campaign Builder
  2.  Select a random test Target Group - You can duplicate an existing one and rename it)
