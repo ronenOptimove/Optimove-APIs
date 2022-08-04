@@ -145,4 +145,5 @@ Since its a shared environment, other Optimove’ clients, vendors/partners are 
  6. **Will I see the templates i have added using AddTemplate function?** 
 Yes, you can use the [AddTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_AddTemplate) function in the Sandbox environment.
 <br>
-	> **Note**: Since the Sandbox environment is a shared environment with other users, your template will be visible to them as well. If this is not an issue, it can remain in the Sandbox. If it is an issue, please use the [UpdateTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_UpdateTemplate) to change the content of the template accordingly.
+
+> **Note**: Since the Sandbox environment is a shared environment with other users, your template will be visible to them as well. If this is not an issue, it can remain in the Sandbox. If it is an issue, please use the [UpdateTemplate](https://docs.optimove.com/api-usage-guide/#Optimail_Functions_UpdateTemplate) to change the content of the template accordingly.
