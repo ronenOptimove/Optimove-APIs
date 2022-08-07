@@ -2,7 +2,7 @@
 
 - [Pre-scheduled Flow](#pre-flow)
 - [Realtime Flow](#rt-flow)
-- [Bonus Integration Flow](#bonus)
+- [Bonus Integration Pre-scheduled Flow](#bonus)
 <br/>
 
 ### <a id="pre-flow"></a>Pre-Scheduled Flow: 
