@@ -93,7 +93,7 @@
 > - Event Type 5 should be register without channel id. 
 > - For API Authentication (#1 above) best practice refer to -   [Login API best practice & use cases](https://github.com/optimoveproductintegration/Optimove-APIs/tree/master/Login-API)
 > - The API payload you will receive is described in [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener) under EventTypeID = 5
-> - For more details, please refer to our [Optimove academy site](https://academy.optimove.com/en/article/promotion-system-integration#promotion-system-integration-for-scheduled-campaigns) under Flow 2
+> - For more details, please refer to our [Optimove academy article](https://academy.optimove.com/en/article/promotion-system-integration#promotion-system-integration-for-scheduled-campaigns) under Flow 2
 <br/>
 
 ----------
