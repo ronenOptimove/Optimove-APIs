@@ -86,7 +86,7 @@
 
 2.As an Optimove client, You may want to verify the list of eligible customers for a creation promotion before it will be sent to them widely.
 
-<p align="center"><img src= https://github.com/optimove-tech/Optimove-APIs/blob/Asaf-branch/API-Integrations/Conditional%20execution.png> </p>
+<p align="center"><img src=https://github.com/optimove-tech/Optimove-APIs/blob/Asaf-branch/API-Integrations/GitHub-Conditional%20Execution.png> </p>
 
 > **Notes**: 
 > - This integration flow **supports only** pre-scheduled campaigns.
