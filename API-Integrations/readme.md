@@ -59,6 +59,7 @@
 <br/>
 
 ----------
+
 ### <a id="CE-Flow"></a>Conditional Exectuon Bonus Flow: 
 **Use Cases**: 
 
@@ -66,7 +67,7 @@
 
 2.As an Optimove client, You may want to verify the list of eligible customers for a creation promotion before it will be sent to them widely.
 
-<p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/Asaf-branch/API-Integrations/Github-Conditional%20Execution.pdf"></p>
+<p align="center"><img src="API-Integrations/Conditional execution.png"></p>
 
 >**Notes**: 
 > - This integration flow **supports only** pre-scheduled campaigns.
@@ -76,6 +77,7 @@
 > - For more details, please refer to our [Optimove academy site](https://academy.optimove.com/en/article/promotion-system-integration#promotion-system-integration-for-scheduled-campaigns) under Flow 2
 <br/>
 ----------
+
 ### <a id="bonusrt"></a>Bonus Integration Flow for Realtime Campaigns: 
 **Use Cases**: 
 
