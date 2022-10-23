@@ -3,6 +3,7 @@
 - [Pre-scheduled Flow](#pre-flow)
 - [Realtime Flow](#rt-flow)
 - [Bonus Integration Pre-scheduled Flow](#bonus)
+- [Conditional Exectuon Bonus Flow] (#CE-Flow)
 - [Bonus Integration Realtime Flow](#bonusrt)
 
 <br/>
@@ -57,6 +58,23 @@
 >  -  For more details, please refer to our [Optimove docs site](https://academy.optimove.com/en/article/promotion-system-integration/)
 <br/>
 
+----------
+### <a id="CE-Flow"></a>Conditional Exectuon Bonus Flow: 
+**Use Cases**: 
+
+1.As an Optimove client, You may want to ensure that your campaign is sent only to customers for whom the promotion was already activated in your promo/bonus system.
+
+2.As an Optimove client, You may want to verify the list of eligible customers for a creation promotion before it will be sent to them widely.
+
+<p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/Asaf-branch/API-Integrations/Github-Conditional%20Execution.pdf"></p>
+
+>**Notes**: 
+> - This integration flow **supports only** pre-scheduled campaigns.
+> - Eevent Type 5 should be register without channel id. 
+> - For API Authentication (#1 above) best practice refer to -   [Login API best practice & use cases](https://github.com/optimoveproductintegration/Optimove-APIs/tree/master/Login-API)
+> - The API payload you will receive is described in [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener) under EventTypeID = 5
+> - For more details, please refer to our [Optimove academy site](https://academy.optimove.com/en/article/promotion-system-integration#promotion-system-integration-for-scheduled-campaigns) under Flow 2
+<br/>
 ----------
 ### <a id="bonusrt"></a>Bonus Integration Flow for Realtime Campaigns: 
 **Use Cases**: 
