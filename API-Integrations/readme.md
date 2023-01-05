@@ -4,7 +4,7 @@
 - [Realtime Flow](#rt-flow)
 - [Bonus Integration Pre-scheduled Flow](#bonus)
 - [Bonus Integration Realtime Flow](#bonusrt)
-- [Conditional Exectuon Bonus Flow](#ce-flow)
+- [Conditional Execution Bonus Flow](#ce-flow)
 
 <br/>
 
