@@ -79,7 +79,7 @@
 
 ----------
 
-### <a id="ce-flow"></a>Conditional Exectuon Bonus Flow: 
+### <a id="ce-flow"></a>Conditional Execution Bonus Flow: 
 **Use Cases**: 
 
 1.As an Optimove client, You may want to ensure that your campaign is sent only to customers for whom the promotion was already activated in your promo/bonus system.
