@@ -17,7 +17,6 @@
 <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-%20Mor%20-%20Client%20Execution%20for%20Github.png?raw=true"></p>
 
 >**Notes**: 
-> -   For API Authentication (#1 above) best practice refer to -   [Login API best practice & use cases](https://github.com/optimoveproductintegration/Optimove-APIs/tree/master/Login-API)
 > -   For EventTypes (#2 above) refer to [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)
 > -   Please contact the Product Integration Team to provide you with the exact Channel ID you should register the listener ([RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)), and synchronize your templates to ([AddChannelTemplates](https://docs.optimove.com/api-usage-guide/#AddChannelTemplates) #3 above)
 > -  For more details, please refer to our [Optimove docs site](https://docs.optimove.com/integrate-your-service-with-optimove/)
@@ -34,7 +33,6 @@
 
 >**Notes**: 
 > - This integration flow **supports** Optimove clients who have Optimove's [Server Side API](https://github.com/optimove-tech/Reporting-Server-Side-Custom-Events) or[Track & Trigger](https://docs.optimove.com/track-and-trigger/) add-on product running on their website, mobile native app **only**!
-> -   For API Authentication (#1 above) best practice refer to -   [Login API best practice & use cases](https://github.com/optimoveproductintegration/Optimove-APIs/tree/master/Login-API)
 > - The API payload you will receive in realtime is described in [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener) under EventTypeID = 11
 > -   Please contact the Product Integration Team to provide you with the exact Channel ID you should register the realtime listener ([RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)), and synchronize your templates to ([AddChannelTemplates](https://docs.optimove.com/api-usage-guide/#AddChannelTemplates) #3 above)
 > -  For more details, please refer to our [Optimove docs site](https://docs.optimove.com/integrate-your-service-with-optimove/)
@@ -49,7 +47,6 @@
 <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-Bonus%20System%20Event13.png?raw=true"></p>
 
 >**Notes**: 
-> -   For API Authentication (#1 above) best practice refer to -   [Login API best practice & use cases](https://github.com/optimoveproductintegration/Optimove-APIs/tree/master/Login-API)
 > -   For EventTypes (#2 above) refer to [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)
 > -   Please contact the Product Integration Team to provide you with the exact Channel ID(s) you should register the listener ([RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)) 
 > - In order to have the promotions available for choosing within the campaign creation, please use [Add Promotions](https://docs.optimove.com/api-usage-guide/#External_System_Integration_Functions_AddPromotions)
@@ -71,7 +68,6 @@
 > **Notes**: 
 > - This integration flow **supports only** pre-scheduled campaigns.
 > - Event Type 5 should be register without channel id. 
-> - For API Authentication (#1 above) best practice refer to -   [Login API best practice & use cases](https://github.com/optimoveproductintegration/Optimove-APIs/tree/master/Login-API)
 > - The API payload you will receive is described in [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener) under EventTypeID = 5
 > - For more details, please refer to our [Optimove academy article](https://academy.optimove.com/en/article/promotion-system-integration#promotion-system-integration-for-scheduled-campaigns) under Flow 2
 <br/>
@@ -88,7 +84,6 @@
 
 >**Notes**: 
 > - This integration flow **supports** Optimove clients who have Optimove's [Server Side API](https://github.com/optimove-tech/Reporting-Server-Side-Custom-Events) or[Track & Trigger](https://docs.optimove.com/track-and-trigger/) add-on product running on their website, mobile native app **only**!
-> -   For API Authentication (#1 above) best practice refer to -   [Login API best practice & use cases](https://github.com/optimoveproductintegration/Optimove-APIs/tree/master/Login-API)
 > - The API payload you will receive in realtime is described in [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener) under EventTypeID = 11
 > -   Please contact the Product Integration Team to provide you with the exact Channel ID you should register the realtime listener ([RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener))
 > - In order to have the promotions available for choosing within the campaign creation, please use [Add Promotions](https://docs.optimove.com/api-usage-guide/#External_System_Integration_Functions_AddPromotions). Please note if the promotions were added under the pre-scheduled campaign flow, there is no need to add the same promotions again, they will already appear in the promotions drop-down for realtime campaigns.
