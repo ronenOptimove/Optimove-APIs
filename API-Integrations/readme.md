@@ -14,10 +14,10 @@
  1. As an Optimove client, you wish to integrate to an external service with Optimove and act as the middle-ware.
  2. As a third party vendor / partner, you are interested in using Optimove to automatically send customer campaigns via your marketing platform.
 
-<p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-%20Mor%20-%20Client%20Execution%20for%20Github.png?raw=true"></p>
+<p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/ShayTest/API-Integrations/Pre-Scheduled%20Flow%20-%20Execution%20(1).png?raw=true"></p>
 
 >**Notes**: 
-> -   For EventTypes (#2 above) refer to [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)
+> -   For EventTypes (#1 above) refer to [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)
 > -   Please contact the Product Integration Team to provide you with the exact Channel ID you should register the listener ([RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)), and synchronize your templates to ([AddChannelTemplates](https://docs.optimove.com/api-usage-guide/#AddChannelTemplates) #3 above)
 > -  For more details, please refer to our [Optimove docs site](https://docs.optimove.com/integrate-your-service-with-optimove/)
 <br/>
@@ -47,7 +47,7 @@
 <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Integrate%20Your%20Service%20-Bonus%20System%20Event13.png?raw=true"></p>
 
 >**Notes**: 
-> -   For EventTypes (#2 above) refer to [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)
+> -   For EventTypes (#1 above) refer to [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)
 > -   Please contact the Product Integration Team to provide you with the exact Channel ID(s) you should register the listener ([RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)) 
 > - In order to have the promotions available for choosing within the campaign creation, please use [Add Promotions](https://docs.optimove.com/api-usage-guide/#External_System_Integration_Functions_AddPromotions)
 >  - Once a notification to your listener is received for EventTypeID13,  pull the relevant details of the campaign using **both the CampaignID and ChannelID** received within the notification (#6 and #9 above). ([GetCustomerExecutionDetailsByCampaign](https://docs.optimove.com/api-usage-guide/#GetCustomerExecutionDetailsByCampaign) 
