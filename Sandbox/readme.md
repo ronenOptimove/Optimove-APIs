@@ -91,7 +91,6 @@ Third parties accessing Optimove API have limited access to the API list. The AP
 
 | ﻿API Category           | Available APIs                      | Notes                                                                       |
 |------------------------|-------------------------------------|-----------------------------------------------------------------------------|
-| /current/general/      | Login                               |                                                                             |
 | /current/general/      | GetLastDataUpdate                   | Will not work due to lack of daily in Sandbox environment only              |
 | /current/general/      | RegisterEventListener               | Only EventType=2 will not work due to lack of daily in Sandbox environment only |
 | /current/general/      | UnRegisterEventListener             |                                                                             |
