@@ -1,5 +1,7 @@
 ## Optimove API collection with Postman - How To Guide
 
+NOTE: Authentication via username and password will be deprecated in January 2024. All new authentication methods should use API Keys in all API requests.
+
 ### Prerequisite
 If you don't already have **Postman** yes, please [download](https://www.getpostman.com/downloads/) one for Windows/Mac/Linux.
 <hr>
