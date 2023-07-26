@@ -1,5 +1,9 @@
 ## Login API Best Practice & Use Cases
 
+>**Note:**
+>  - Authentication via username and password will be deprecated in January 2024.
+>  - All new authentication methods should use API Keys in all API requests. 
+
 ### Example 1: 
 First time login, saving token in your cache and immediately calling an Optimove API from the cached token
 ![](https://github.com/optimoveproductintegration/Optimove-APIs/blob/master/Login-API/API%20Auth%20E1.jpg?raw=true)
