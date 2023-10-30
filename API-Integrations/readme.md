@@ -17,9 +17,9 @@
 <p align="center"><img src="https://github.com/optimove-tech/Optimove-APIs/blob/master/API-Integrations/Pre-Scheduled%20Flow%20-%20Execution%20(1).png?raw=true"></p>
 
 >**Notes**: 
-> -   For EventTypes (#1 above) refer to [RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)
-> -   Please contact the Product Integration Team to provide you with the exact Channel ID you should register the listener ([RegisterEventListener](https://docs.optimove.com/api-usage-guide/#General_Functions_RegisterEventListener)), and synchronize your templates to ([AddChannelTemplates](https://docs.optimove.com/api-usage-guide/#AddChannelTemplates) #2 above)
-> -  For more details, please refer to our [Optimove docs site](https://docs.optimove.com/integrate-your-service-with-optimove/)
+> -   For EventTypes (#1 above) refer to [RegisterEventListener](https://developer.optimove.com/reference/post_general-registereventlistener)
+> -   Please contact the Product Integration Team to provide you with the exact Channel ID you should register the listener ([RegisterEventListener](https://developer.optimove.com/reference/post_general-registereventlistener)), and synchronize your templates to ([AddChannelTemplates](https://developer.optimove.com/reference/post_integrations-addchanneltemplates) #2 above)
+> -  For more details, please refer to our [Optimove docs site](https://developer.optimove.com/docs/integrate-your-service-with-optimove)
 <br/>
 
 ----------
