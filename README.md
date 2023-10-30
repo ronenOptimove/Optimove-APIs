@@ -7,6 +7,6 @@ This repo is to support Optimove's API by providing code examples/samples and us
 - [Integrate Your Service with Optimove - Best Practices](https://github.com/optimove-tech/Optimove-APIs/tree/master/API-Integrations)
 
 **Relevant Links**
- - [Optimove API usage guide](https://docs.optimove.com/api-usage-guide/#General_Information)
- - [Optimove APIs - getting started](https://docs.optimove.com/getting-started-optimove-api/)
- - [Integrating your service to Optimove](https://docs.optimove.com/integrate-your-service-with-optimove/)
+ - [Optimove API usage guide](https://developer.optimove.com/docs)
+ - [Optimove APIs - getting started](https://developer.optimove.com/docs#entities)
+ - [Integrating your service to Optimove](https://developer.optimove.com/docs/integrate-your-service-with-optimove)
