@@ -86,7 +86,7 @@
 > - This integration flow **supports** Optimove clients who have Optimove's [Server Side API](https://github.com/optimove-tech/Reporting-Server-Side-Custom-Events) or [Track & Trigger](https://developer.optimove.com/docs/web-sdk-tech-flows) add-on product running on their website, mobile native app **only**!
 > - The API payload you will receive in real-time is described in [RegisterEventListener](https://developer.optimove.com/reference/post_general-registereventlistener) under EventTypeID = 11
 > -   Please get in touch with the Product Integration Team to provide you with the exact Channel ID you should register the real-time listener ([RegisterEventListener](https://developer.optimove.com/reference/post_general-registereventlistener))
-> - To have the promotions available for choosing within the campaign creation, please use [Add Promotions](https://developer.optimove.com/reference/post_integrations-addpromotions). Just so you know, if the promotions were added under the pre-scheduled campaign flow, you don't need to add the same promotions again; they will already appear in the promotions drop-down for real-time campaigns.
+> - To have the promotions available for choosing within the campaign creation, please use [Add Promotions](https://developer.optimove.com/reference/post_integrations-addpromotions). If the promotions were added under the pre-scheduled campaign flow, you don't need to add the same promotions again; they will already appear in the promotions drop-down for real-time campaigns.
 > -  For more details, please refer to our [Optimove docs site](https://developer.optimove.com/docs/promotion-system-integration#triggered)
 <br/>
 
